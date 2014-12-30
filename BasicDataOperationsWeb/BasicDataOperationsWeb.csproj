@@ -84,6 +84,7 @@
     <Content Include="Microsoft.SharePoint.Client.xml" />
     <Content Include="packages.config" />
     <None Include="BasicDataOperationsWeb.dll.config" />
+    <None Include="Properties\PublishProfiles\pub.pubxml" />
     <None Include="Scripts\jquery-1.7.1.intellisense.js" />
     <Content Include="Pages\Default.aspx" />
     <Content Include="RemoteEventReceiver1.svc" />
@@ -107,6 +108,7 @@
     <Compile Include="RemoteEventReceiver1.svc.cs">
       <DependentUpon>RemoteEventReceiver1.svc</DependentUpon>
     </Compile>
+    <Compile Include="SharePointContext.cs" />
     <Compile Include="TokenHelper.cs" />
   </ItemGroup>
   <ItemGroup>

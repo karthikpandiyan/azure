@@ -8,6 +8,7 @@ using Microsoft.SharePoint.Client.EventReceivers;
 using System.Runtime.Serialization;
 using System.ServiceModel;
 using System.ServiceModel.Channels;
+using TCSEventReceiversWeb;
 
 
 namespace BasicDataOperationsWeb

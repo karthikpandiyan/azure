@@ -8,18 +8,15 @@
 >
   <Properties>
     <Title>BasicDataOperations</Title>
-    <StartPage>~remoteAppUrl/Pages/Default.aspx?{StandardTokens}</StartPage>
+    <StartPage>http://jcier.azurewebsites.net/Pages/Default.aspx?{StandardTokens}</StartPage>
     <!--<StartPage>~appWebUrl/Lists/List1</StartPage>-->
-    <InstalledEventEndpoint>~remoteAppUrl/AppEventReceiver.svc</InstalledEventEndpoint>
+    <InstalledEventEndpoint>http://jcier.azurewebsites.net/AppEventReceiver.svc</InstalledEventEndpoint>
   </Properties>
 
   <AppPrincipal>
-    <AutoDeployedWebApplication/>
+    <RemoteWebApplication ClientId="afadbd35-a73b-4235-9f2b-db7725c798fd" />
   </AppPrincipal>
-
-  <AppPrerequisites> 
-    <AppPrerequisite Type="AutoProvisioning" ID="RemoteWebHost" /> 
-  </AppPrerequisites>
+  
   <AppPermissionRequests>
     <AppPermissionRequest Scope="http://sharepoint/content/sitecollection" Right="FullControl" />
     <AppPermissionRequest Scope="http://sharepoint/content/sitecollection/web/list" Right="FullControl" />

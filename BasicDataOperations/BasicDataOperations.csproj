@@ -20,6 +20,7 @@
     <WorkflowPartId>{cda4daad-f3b1-4d70-9524-f114e7b94d4d}</WorkflowPartId>
     <CspkgPartId>{e7cc5d39-bb39-4e5f-bc1f-e5157eeec6fb}</CspkgPartId>
     <SqlPackagePartId>{1928889f-1d06-4d01-9972-755dc927693d}</SqlPackagePartId>
+    <ActivePublishProfile>pub</ActivePublishProfile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>

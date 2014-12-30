@@ -5,7 +5,7 @@
         <Name>RemoteEventReceiver1ItemAdding</Name>
         <Type>ItemAdding</Type>
         <SequenceNumber>10000</SequenceNumber>
-        <Url>~remoteAppUrl/RemoteEventReceiver1.svc</Url>
+        <Url>http://jcier.azurewebsites.net/RemoteEventReceiver1.svc</Url>
       </Receiver>
   </Receivers>
 </Elements>
