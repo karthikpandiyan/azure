@@ -74,7 +74,16 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="AppEventReceiver.svc" />
+    <Content Include="BasicDataOperationsWeb.dll" />
+    <Content Include="BasicDataOperationsWeb.pdb" />
+    <Content Include="Microsoft.IdentityModel.dll" />
+    <Content Include="Microsoft.IdentityModel.Extensions.dll" />
+    <Content Include="Microsoft.SharePoint.Client.dll" />
+    <Content Include="Microsoft.SharePoint.Client.Runtime.dll" />
+    <Content Include="Microsoft.SharePoint.Client.Runtime.xml" />
+    <Content Include="Microsoft.SharePoint.Client.xml" />
     <Content Include="packages.config" />
+    <None Include="BasicDataOperationsWeb.dll.config" />
     <None Include="Scripts\jquery-1.7.1.intellisense.js" />
     <Content Include="Pages\Default.aspx" />
     <Content Include="RemoteEventReceiver1.svc" />
